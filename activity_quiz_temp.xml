@@ -1,0 +1,65 @@
+<!-- res/layout/activity_quiz.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/questions_template"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:text="Which planet is known as the Red Planet?"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="33dp"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+
+
+    <Button
+        android:id="@+id/option1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:textSize="20dp"
+        android:text="Earth" />
+
+    <Button
+        android:id="@+id/option2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/black"
+        android:text="Mars" />
+
+    <Button
+        android:id="@+id/option3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:text="Jupiter" />
+
+    <Button
+        android:id="@+id/option4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/black"
+        android:text="Venus" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<!-- res/layout/activity_quiz.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/questions_template"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:text="How many moons does Jupiter have?"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+
+
+    <Button
+        android:id="@+id/option5button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:textSize="20dp"
+        android:text="33" />
+
+    <Button
+        android:id="@+id/option6button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:textSize="20dp"
+        android:text="54" />
+
+    <Button
+        android:id="@+id/option7button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        android:text="79" />
+
+    <Button
+        android:id="@+id/option8button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:textSize="20dp"
+        android:text="49" />
+
+</LinearLayout>
